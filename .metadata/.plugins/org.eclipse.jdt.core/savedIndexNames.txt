@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+G:\华为科创实验\菁英班科创竞赛题目1\考试工程\DragonSlayer\.metadata\.plugins\org.eclipse.jdt.core
+496933865.index

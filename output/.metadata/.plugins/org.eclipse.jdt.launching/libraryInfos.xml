@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="F:\SOFTWARE_ins\JDK_INSTALL\JDK" version="1.8.0_171">
+<bootpath>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\resources.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\rt.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\sunrsasign.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\jsse.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\jce.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\charsets.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\jfr.jar"/>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\SOFTWARE_ins\JDK_INSTALL\JDK\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
