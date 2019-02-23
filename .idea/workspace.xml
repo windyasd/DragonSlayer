@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e32c1301-a57f-43a6-b624-a49918f4483e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DragonSlayer" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/output/" />
@@ -23,20 +23,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="243" column="23" lean-forward="true" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+            <state relative-caret-position="-668">
+              <caret line="568" column="13" lean-forward="true" selection-start-line="568" selection-start-column="13" selection-end-line="568" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testRoute_Find#0;class#DragonSlayerImpl#0" />
+                <element signature="method#Route_Find#0;class#DragonSlayerImpl#0" />
                 <element signature="e#4419#5067#1" />
                 <element signature="e#5143#5627#0" />
+                <element signature="method#AdjMatrix_Ini#0;class#DragonSlayerImpl#0" />
                 <element signature="method#AdjMatrix_Ref#0;class#DragonSlayerImpl#0" />
                 <element signature="method#reset#0;class#DragonSlayerImpl#0" />
+                <element signature="method#setFire#0;class#DragonSlayerImpl#0" />
                 <element signature="method#setTornado#0;class#DragonSlayerImpl#0" />
-                <element signature="method#setPortal#0;class#DragonSlayerImpl#0" />
+                <element signature="method#query#0;class#DragonSlayerImpl#0" />
               </folding>
             </state>
           </provider>
@@ -57,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/DragonSlayerExamApi.jar!/huawei/exam/Hero.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
+            <state relative-caret-position="306">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#716#717#0" expanded="true" />
@@ -84,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="152">
               <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,6 +154,19 @@
               <item name="DragonSlayerExam" type="b2602c69:ProjectViewProjectNode" />
               <item name="DragonSlayer" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="DragonSlayerExamApi.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="DragonSlayerExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DragonSlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="DragonSlayerExamApi.jar" type="ab9368bb:PsiFileNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DragonSlayerExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DragonSlayer" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="SocketApi.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
@@ -185,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550905963009" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550908292667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../菁英班科创竞赛题目2/考试工程/TetrisMania" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -315,7 +331,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -324,7 +340,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.37677053" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4348442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,55 +365,55 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>340</line>
+          <line>349</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>77</line>
+          <line>78</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>78</line>
+          <line>79</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>79</line>
+          <line>80</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>596</line>
+          <line>615</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>603</line>
+          <line>622</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>604</line>
+          <line>623</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>120</line>
+          <line>128</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java</url>
-          <line>164</line>
+          <line>172</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -486,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/DragonSlayerExamApi.jar!/huawei/exam/Hero.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#716#717#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/DragonSlayerExamApi.jar!/huawei/exam/OpResult.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -517,29 +523,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="243" column="23" lean-forward="true" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#testRoute_Find#0;class#DragonSlayerImpl#0" />
-            <element signature="e#4419#5067#1" />
-            <element signature="e#5143#5627#0" />
-            <element signature="method#AdjMatrix_Ref#0;class#DragonSlayerImpl#0" />
-            <element signature="method#reset#0;class#DragonSlayerImpl#0" />
-            <element signature="method#setTornado#0;class#DragonSlayerImpl#0" />
-            <element signature="method#setPortal#0;class#DragonSlayerImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
+    <entry file="jar://$PROJECT_DIR$/lib/DragonSlayerExamApi.jar!/huawei/exam/Hero.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="306">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#716#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-668">
+          <caret line="568" column="13" lean-forward="true" selection-start-line="568" selection-start-column="13" selection-end-line="568" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testRoute_Find#0;class#DragonSlayerImpl#0" />
+            <element signature="method#Route_Find#0;class#DragonSlayerImpl#0" />
+            <element signature="e#4419#5067#1" />
+            <element signature="e#5143#5627#0" />
+            <element signature="method#AdjMatrix_Ini#0;class#DragonSlayerImpl#0" />
+            <element signature="method#AdjMatrix_Ref#0;class#DragonSlayerImpl#0" />
+            <element signature="method#reset#0;class#DragonSlayerImpl#0" />
+            <element signature="method#setFire#0;class#DragonSlayerImpl#0" />
+            <element signature="method#setTornado#0;class#DragonSlayerImpl#0" />
+            <element signature="method#query#0;class#DragonSlayerImpl#0" />
           </folding>
         </state>
       </provider>

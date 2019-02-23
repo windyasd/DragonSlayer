@@ -52,6 +52,7 @@ public class DragonSlayerImpl implements ExamOp
     int[][] adjMatrix=AdjMatrix_Ini(Game_Ground);
      Hero hero=new Hero(Title.WARRIOR,Status.WAITING,new Area(0,0));
      int[][] route;
+     int stepRemain;
     public DragonSlayerImpl()
     {
         //初始化地下城
@@ -99,10 +100,12 @@ public class DragonSlayerImpl implements ExamOp
             }
             if (route1[0][i]==255)
             {
+                stepRemain=0;
                 hero.setStatus(Status.WAITING);
                 hero.setTitle(Title.DRAGON_SLAYER);
                 hero.setArea(new Area(route1[0][i]%16,route1[0][i]/16));
             }else {
+                stepRemain=RunTime;
                 hero.setArea(new Area(route1[0][i]%16,route1[0][i]/16));
             }
         }
@@ -117,6 +120,11 @@ public class DragonSlayerImpl implements ExamOp
         int i,j,n=256;
         int[] pre=new int[256];
         int[] dist=adjMatrix[s].clone();
+        //如果前一状态为等待状态，将英雄在龙卷风中走过的距离置0
+        if (hero.getStatus()==Status.WAITING)
+        {
+            stepRemain=0;
+        }
         boolean[] S=new boolean[n];
         boolean[] Flag=new boolean[n];
         for (i=0;i<n;i++)
@@ -220,6 +228,7 @@ public class DragonSlayerImpl implements ExamOp
                 default:
                     break;
             }
+            route1[1][num]=route1[1][num]-stepRemain;
             for(i=1;i<num;i++)
             {
                 if (Flag[route1[0][i]]){
@@ -464,11 +473,13 @@ public class DragonSlayerImpl implements ExamOp
         }
         else
             {
-
-                //缺失计算程序
                 Status_Time(time,route);
                 TickTime=time;
                 //后续路线更改
+                if (area.getX()==hero.getArea().getX()&&area.getY()==hero.getArea().getY())
+                {
+                    return new OpResult(ReturnCode.E005);
+                }
                 if (Game_Ground[area.getX()][area.getY()]==0||Game_Ground[area.getX()][area.getY()]==6)
                 {
                     Game_Ground[area.getX()][area.getY()]=3;
@@ -506,6 +517,10 @@ public class DragonSlayerImpl implements ExamOp
             //缺失计算程序
             Status_Time(time,route);
             TickTime=time;
+            if (area.getX()==hero.getArea().getX()&&area.getY()==hero.getArea().getY())
+            {
+                return new OpResult(ReturnCode.E005);
+            }
             if (HasTornado==0){
                 if (Game_Ground[area.getX()][area.getY()]==0||Game_Ground[area.getX()][area.getY()]==6)
                 {
@@ -548,6 +563,10 @@ public class DragonSlayerImpl implements ExamOp
             //缺失计算程序
             Status_Time(time,route);
             TickTime=time;
+            if (entry.getX()==hero.getArea().getX()&&entry.getY()==hero.getArea().getY())
+            {
+                return new OpResult(ReturnCode.E005);
+            }
             if (entry.getX()==exit.getX()&&entry.getY()==exit.getY()){
                 return new OpResult(ReturnCode.E008);
             }
