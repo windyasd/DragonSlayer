@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e32c1301-a57f-43a6-b624-a49918f4483e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/DragonSlayer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="e32c1301-a57f-43a6-b624-a49918f4483e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/output/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-668">
@@ -87,7 +84,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -201,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550908292667" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550919826117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../菁英班科创竞赛题目2/考试工程/TetrisMania" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -329,9 +326,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25536194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -340,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.37677053" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.37677053" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.4348442" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,16 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/DragonSlayerExamApi.jar!/huawei/exam/Hero.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -559,6 +545,16 @@
             <element signature="method#setFire#0;class#DragonSlayerImpl#0" />
             <element signature="method#setTornado#0;class#DragonSlayerImpl#0" />
             <element signature="method#query#0;class#DragonSlayerImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/huawei/DragonSlayerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
