@@ -166,15 +166,46 @@ public class DragonSlayerImpl implements ExamOp
         route1[0][0]=255;
         route1[1][0]=666;
         int k,num;
+        boolean flag=false;
         k=255;
-        num=1;
-        while(pre[k]!=s)
+        if (pre[k]==-1)
         {
-            int x=pre[k]%16;
-            int y=pre[k]/16;
-            switch (Game_Ground[x][y])
+            flag=true;
+            num=0;
+        }else {
+            num=1;
+            while(pre[k]!=s)
+            {
+                int x=pre[k]%16;
+                int y=pre[k]/16;
+                switch (Game_Ground[x][y])
+                {
+                    case 0:    //没有元素
+                        route1[1][num]=1;
+                        break;
+                    case 4:     //龙卷风
+                        route1[1][num]=3;
+                        break;
+                    case 5:     //传送门入口
+                        route1[1][num]=0;
+                        break;
+                    case 6:     //传送门出口
+                        route1[1][num]=1;
+                        break;
+                    default:
+                        break;
+
+                }
+                route1[0][num++]=pre[k];
+                k=pre[k];
+            }
+            route1[0][num]=s;
+            switch (Game_Ground[s%16][s/16])
             {
                 case 0:    //没有元素
+                    route1[1][num]=1;
+                    break;
+                case 1:
                     route1[1][num]=1;
                     break;
                 case 4:     //龙卷风
@@ -188,40 +219,15 @@ public class DragonSlayerImpl implements ExamOp
                     break;
                 default:
                     break;
-
             }
-            route1[0][num++]=pre[k];
-            k=pre[k];
-        }
-        route1[0][num]=s;
-        switch (Game_Ground[s%16][s/16])
-        {
-            case 0:    //没有元素
-                route1[1][num]=1;
-                break;
-            case 1:
-                route1[1][num]=1;
-                break;
-            case 4:     //龙卷风
-                route1[1][num]=3;
-                break;
-            case 5:     //传送门入口
-                route1[1][num]=0;
-                break;
-            case 6:     //传送门出口
-                route1[1][num]=1;
-                break;
-            default:
-                break;
-        }
-
-        boolean flag=false;
-        for(i=1;i<num;i++)
-        {
-            if (Flag[route1[0][i]]){
-                flag=true;
+            for(i=1;i<num;i++)
+            {
+                if (Flag[route1[0][i]]){
+                    flag=true;
+                }
             }
         }
+
         if (flag)
         {
             hero.setStatus(Status.WAITING);
